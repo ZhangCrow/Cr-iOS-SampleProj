@@ -1,0 +1,45 @@
+platform :ios, '8.0'
+#inhibit_all_warnings!
+
+# 通用库
+def common_pods
+    pod 'Masonry', '~> 1.0.1'
+    pod 'SDWebImage', '~> 4.0.0'
+    pod 'AFNetworking', '~> 3.1.0'
+    pod 'Toast', '~> 3.1.0'
+    pod 'AvoidCrash'
+    pod 'IQKeyboardManager'
+end
+
+# YYKit(自定义配置)
+def yyKit_Custom_pods
+    pod 'YYModel'
+#    pod 'YYCache'
+#    pod 'YYText'
+#    pod 'YYImage'
+#    pod 'YYWebImage'
+#    pod 'YYDispatchQueuePool'
+#    pod 'YYKeyboardManager'
+#    pod 'YYAsyncLayer'
+#    pod 'YYCategories'
+end
+
+# 开发调试工具
+def dev_Tools
+    pod "FHHFPSIndicator"
+end
+
+# 技术调研
+def preDev_pods
+    pod 'WCDB'
+    pod 'YapDatabase', '~> 3.0'
+end
+
+# Proj
+target 'CRSampleProj' do
+    common_pods
+    dev_Tools
+    yyKit_Custom_pods
+#    preDev_pods
+end
+

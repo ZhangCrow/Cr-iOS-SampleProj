@@ -1,0 +1,1010 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		135558461F49633E00936C0B /* CRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 135558451F49633E00936C0B /* CRAppDelegate.m */; };
+		1355598C1F49666B00936C0B /* CRAppDelegate+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 1355598B1F49666B00936C0B /* CRAppDelegate+Config.m */; };
+		135559931F496D5800936C0B /* CRConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 135559921F496D5800936C0B /* CRConst.m */; };
+		135559991F496E0500936C0B /* CRPlainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 135559981F496E0500936C0B /* CRPlainButton.m */; };
+		1355599C1F496F6500936C0B /* UIImage+CRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1355599B1F496F6500936C0B /* UIImage+CRAdd.m */; };
+		135559AF1F49774200936C0B /* CRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135559AE1F49774200936C0B /* CRBaseViewController.m */; };
+		135559B21F497BF500936C0B /* UIBarButtonItem+CRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 135559B11F497BF500936C0B /* UIBarButtonItem+CRAdd.m */; };
+		135559B61F497DBB00936C0B /* CRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135559B51F497DBB00936C0B /* CRNavigationController.m */; };
+		135559B91F497DDB00936C0B /* CRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135559B81F497DDB00936C0B /* CRTabBarController.m */; };
+		135559FC1F49805200936C0B /* CRPartOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135559FB1F49805200936C0B /* CRPartOneViewController.m */; };
+		135559FF1F49807600936C0B /* CRPartTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135559FE1F49807600936C0B /* CRPartTwoViewController.m */; };
+		13555A021F49808400936C0B /* CRPartThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13555A011F49808400936C0B /* CRPartThreeViewController.m */; };
+		13555A051F49809100936C0B /* CRPartFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13555A041F49809100936C0B /* CRPartFourViewController.m */; };
+		13555A081F49868A00936C0B /* CRThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13555A071F49868A00936C0B /* CRThemeManager.m */; };
+		13555A0B1F49883D00936C0B /* CRBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13555A0A1F49883D00936C0B /* CRBaseModel.m */; };
+		13555A0E1F4988CF00936C0B /* CRCrashRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 13555A0D1F4988CF00936C0B /* CRCrashRecord.m */; };
+		13555A111F49896700936C0B /* NSDictionary+SafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 13555A101F49896700936C0B /* NSDictionary+SafeAccess.m */; };
+		138175581F46CDF700DDCD7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 138175571F46CDF700DDCD7A /* main.m */; };
+		138175631F46CDF700DDCD7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 138175621F46CDF700DDCD7A /* Assets.xcassets */; };
+		138175661F46CDF700DDCD7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138175641F46CDF700DDCD7A /* LaunchScreen.storyboard */; };
+		A92772C0E3AABC2368E13EE8 /* libPods-CRSampleProj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F6144422FA166F744BE1884 /* libPods-CRSampleProj.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AAD1C9FCE9CF327ABF80826 /* Pods-CRSampleProj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRSampleProj.release.xcconfig"; path = "Pods/Target Support Files/Pods-CRSampleProj/Pods-CRSampleProj.release.xcconfig"; sourceTree = "<group>"; };
+		135558441F49633E00936C0B /* CRAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRAppDelegate.h; sourceTree = "<group>"; };
+		135558451F49633E00936C0B /* CRAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRAppDelegate.m; sourceTree = "<group>"; };
+		1355594D1F4964C400936C0B /* RACEXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACEXTScope.h; sourceTree = "<group>"; };
+		1355594E1F4964C400936C0B /* RACmetamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACmetamacros.h; sourceTree = "<group>"; };
+		1355598A1F49666B00936C0B /* CRAppDelegate+Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CRAppDelegate+Config.h"; sourceTree = "<group>"; };
+		1355598B1F49666B00936C0B /* CRAppDelegate+Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CRAppDelegate+Config.m"; sourceTree = "<group>"; };
+		1355598D1F49675800936C0B /* CRPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRPrefixHeader.pch; sourceTree = "<group>"; };
+		1355598E1F496A5200936C0B /* CRBaseMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRBaseMacros.h; sourceTree = "<group>"; };
+		1355598F1F496AB300936C0B /* CRThemeMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRThemeMacros.h; sourceTree = "<group>"; };
+		135559901F496B4C00936C0B /* CRThirdMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRThirdMacros.h; sourceTree = "<group>"; };
+		135559911F496D5800936C0B /* CRConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRConst.h; sourceTree = "<group>"; };
+		135559921F496D5800936C0B /* CRConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRConst.m; sourceTree = "<group>"; };
+		135559971F496E0500936C0B /* CRPlainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRPlainButton.h; sourceTree = "<group>"; };
+		135559981F496E0500936C0B /* CRPlainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRPlainButton.m; sourceTree = "<group>"; };
+		1355599A1F496F6500936C0B /* UIImage+CRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CRAdd.h"; sourceTree = "<group>"; };
+		1355599B1F496F6500936C0B /* UIImage+CRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CRAdd.m"; sourceTree = "<group>"; };
+		135559AD1F49774200936C0B /* CRBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRBaseViewController.h; sourceTree = "<group>"; };
+		135559AE1F49774200936C0B /* CRBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRBaseViewController.m; sourceTree = "<group>"; };
+		135559B01F497BF500936C0B /* UIBarButtonItem+CRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CRAdd.h"; sourceTree = "<group>"; };
+		135559B11F497BF500936C0B /* UIBarButtonItem+CRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CRAdd.m"; sourceTree = "<group>"; };
+		135559B31F497CF700936C0B /* CRObjcKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRObjcKit.h; sourceTree = "<group>"; };
+		135559B41F497DBB00936C0B /* CRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRNavigationController.h; sourceTree = "<group>"; };
+		135559B51F497DBB00936C0B /* CRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRNavigationController.m; sourceTree = "<group>"; };
+		135559B71F497DDB00936C0B /* CRTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRTabBarController.h; sourceTree = "<group>"; };
+		135559B81F497DDB00936C0B /* CRTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRTabBarController.m; sourceTree = "<group>"; };
+		135559FA1F49805200936C0B /* CRPartOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRPartOneViewController.h; sourceTree = "<group>"; };
+		135559FB1F49805200936C0B /* CRPartOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRPartOneViewController.m; sourceTree = "<group>"; };
+		135559FD1F49807600936C0B /* CRPartTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRPartTwoViewController.h; sourceTree = "<group>"; };
+		135559FE1F49807600936C0B /* CRPartTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRPartTwoViewController.m; sourceTree = "<group>"; };
+		13555A001F49808400936C0B /* CRPartThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRPartThreeViewController.h; sourceTree = "<group>"; };
+		13555A011F49808400936C0B /* CRPartThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRPartThreeViewController.m; sourceTree = "<group>"; };
+		13555A031F49809100936C0B /* CRPartFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRPartFourViewController.h; sourceTree = "<group>"; };
+		13555A041F49809100936C0B /* CRPartFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRPartFourViewController.m; sourceTree = "<group>"; };
+		13555A061F49868A00936C0B /* CRThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRThemeManager.h; sourceTree = "<group>"; };
+		13555A071F49868A00936C0B /* CRThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRThemeManager.m; sourceTree = "<group>"; };
+		13555A091F49883D00936C0B /* CRBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRBaseModel.h; sourceTree = "<group>"; };
+		13555A0A1F49883D00936C0B /* CRBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRBaseModel.m; sourceTree = "<group>"; };
+		13555A0C1F4988CF00936C0B /* CRCrashRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRCrashRecord.h; sourceTree = "<group>"; };
+		13555A0D1F4988CF00936C0B /* CRCrashRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRCrashRecord.m; sourceTree = "<group>"; };
+		13555A0F1F49896700936C0B /* NSDictionary+SafeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SafeAccess.h"; sourceTree = "<group>"; };
+		13555A101F49896700936C0B /* NSDictionary+SafeAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SafeAccess.m"; sourceTree = "<group>"; };
+		138175531F46CDF700DDCD7A /* CRSampleProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRSampleProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		138175571F46CDF700DDCD7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		138175621F46CDF700DDCD7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		138175651F46CDF700DDCD7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		138175671F46CDF700DDCD7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39CDFAFB5C9000A2D3FF9505 /* Pods-CRSampleProj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRSampleProj.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CRSampleProj/Pods-CRSampleProj.debug.xcconfig"; sourceTree = "<group>"; };
+		4F6144422FA166F744BE1884 /* libPods-CRSampleProj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRSampleProj.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		138175501F46CDF700DDCD7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92772C0E3AABC2368E13EE8 /* libPods-CRSampleProj.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		135558EA1F4964C400936C0B /* CRProjFiles */ = {
+			isa = PBXGroup;
+			children = (
+				135559B31F497CF700936C0B /* CRObjcKit.h */,
+				135558EB1F4964C400936C0B /* Main(主要) */,
+				135559391F4964C400936C0B /* Expand(扩展) */,
+				1355594B1F4964C400936C0B /* Vender(第三方) */,
+				1355594F1F4964C400936C0B /* Resource(资源) */,
+				135559581F4964C400936C0B /* SDK(集成) */,
+			);
+			path = CRProjFiles;
+			sourceTree = "<group>";
+		};
+		135558EB1F4964C400936C0B /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				1355599D1F49770400936C0B /* Base(基类) */,
+				135559C51F497FC400936C0B /* PartXXXOne(Tab1) */,
+				135559DB1F497FC400936C0B /* PartXXXTwo(Tab2) */,
+				135559D01F497FC400936C0B /* PartXXXThree(Tab3) */,
+				135559BA1F497FC400936C0B /* PartXXXFour(Tab4) */,
+				135558F71F4964C400936C0B /* OperationAccount(帐号操作) */,
+				1355592E1F4964C400936C0B /* Sample(样例) */,
+			);
+			name = "Main(主要)";
+			path = 1.Main;
+			sourceTree = "<group>";
+		};
+		135558F71F4964C400936C0B /* OperationAccount(帐号操作) */ = {
+			isa = PBXGroup;
+			children = (
+				135558F81F4964C400936C0B /* Controller */,
+				135558FA1F4964C400936C0B /* Model */,
+				135558FC1F4964C400936C0B /* Other */,
+				135558FE1F4964C400936C0B /* Service */,
+				135559001F4964C400936C0B /* View */,
+			);
+			name = "OperationAccount(帐号操作)";
+			path = OperationAccount;
+			sourceTree = "<group>";
+		};
+		135558F81F4964C400936C0B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		135558FA1F4964C400936C0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		135558FC1F4964C400936C0B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		135558FE1F4964C400936C0B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		135559001F4964C400936C0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1355592E1F4964C400936C0B /* Sample(样例) */ = {
+			isa = PBXGroup;
+			children = (
+				1355592F1F4964C400936C0B /* Controller */,
+				135559311F4964C400936C0B /* Model */,
+				135559331F4964C400936C0B /* Other */,
+				135559351F4964C400936C0B /* Service */,
+				135559371F4964C400936C0B /* View */,
+			);
+			name = "Sample(样例)";
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		1355592F1F4964C400936C0B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		135559311F4964C400936C0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		135559331F4964C400936C0B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		135559351F4964C400936C0B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		135559371F4964C400936C0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		135559391F4964C400936C0B /* Expand(扩展) */ = {
+			isa = PBXGroup;
+			children = (
+				1355593A1F4964C400936C0B /* Category(分类) */,
+				135559411F4964C400936C0B /* Const(常量) */,
+				135559431F4964C400936C0B /* CustomModule(自定义组件) */,
+				135559451F4964C400936C0B /* Macros(宏) */,
+				135559471F4964C400936C0B /* Network(网络) */,
+				135559491F4964C400936C0B /* Tool(工具) */,
+			);
+			name = "Expand(扩展)";
+			path = 2.Expand;
+			sourceTree = "<group>";
+		};
+		1355593A1F4964C400936C0B /* Category(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				1355593B1F4964C400936C0B /* NSFoundation */,
+				1355593F1F4964C400936C0B /* UIKit */,
+				1355593D1F4964C400936C0B /* Other */,
+			);
+			name = "Category(分类)";
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1355593B1F4964C400936C0B /* NSFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				13555A0F1F49896700936C0B /* NSDictionary+SafeAccess.h */,
+				13555A101F49896700936C0B /* NSDictionary+SafeAccess.m */,
+			);
+			path = NSFoundation;
+			sourceTree = "<group>";
+		};
+		1355593D1F4964C400936C0B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		1355593F1F4964C400936C0B /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1355599A1F496F6500936C0B /* UIImage+CRAdd.h */,
+				1355599B1F496F6500936C0B /* UIImage+CRAdd.m */,
+				135559B01F497BF500936C0B /* UIBarButtonItem+CRAdd.h */,
+				135559B11F497BF500936C0B /* UIBarButtonItem+CRAdd.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		135559411F4964C400936C0B /* Const(常量) */ = {
+			isa = PBXGroup;
+			children = (
+				135559911F496D5800936C0B /* CRConst.h */,
+				135559921F496D5800936C0B /* CRConst.m */,
+			);
+			name = "Const(常量)";
+			path = Const;
+			sourceTree = "<group>";
+		};
+		135559431F4964C400936C0B /* CustomModule(自定义组件) */ = {
+			isa = PBXGroup;
+			children = (
+				135559971F496E0500936C0B /* CRPlainButton.h */,
+				135559981F496E0500936C0B /* CRPlainButton.m */,
+			);
+			name = "CustomModule(自定义组件)";
+			path = CustomModule;
+			sourceTree = "<group>";
+		};
+		135559451F4964C400936C0B /* Macros(宏) */ = {
+			isa = PBXGroup;
+			children = (
+				1355598E1F496A5200936C0B /* CRBaseMacros.h */,
+				1355598F1F496AB300936C0B /* CRThemeMacros.h */,
+				135559901F496B4C00936C0B /* CRThirdMacros.h */,
+			);
+			name = "Macros(宏)";
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		135559471F4964C400936C0B /* Network(网络) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Network(网络)";
+			path = Network;
+			sourceTree = "<group>";
+		};
+		135559491F4964C400936C0B /* Tool(工具) */ = {
+			isa = PBXGroup;
+			children = (
+				13555A061F49868A00936C0B /* CRThemeManager.h */,
+				13555A071F49868A00936C0B /* CRThemeManager.m */,
+				13555A0C1F4988CF00936C0B /* CRCrashRecord.h */,
+				13555A0D1F4988CF00936C0B /* CRCrashRecord.m */,
+			);
+			name = "Tool(工具)";
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		1355594B1F4964C400936C0B /* Vender(第三方) */ = {
+			isa = PBXGroup;
+			children = (
+				1355594C1F4964C400936C0B /* RAC_EXTScope */,
+			);
+			name = "Vender(第三方)";
+			path = 3.Vender;
+			sourceTree = "<group>";
+		};
+		1355594C1F4964C400936C0B /* RAC_EXTScope */ = {
+			isa = PBXGroup;
+			children = (
+				1355594D1F4964C400936C0B /* RACEXTScope.h */,
+				1355594E1F4964C400936C0B /* RACmetamacros.h */,
+			);
+			path = RAC_EXTScope;
+			sourceTree = "<group>";
+		};
+		1355594F1F4964C400936C0B /* Resource(资源) */ = {
+			isa = PBXGroup;
+			children = (
+				135559501F4964C400936C0B /* Font */,
+				135559521F4964C400936C0B /* Image */,
+				135559541F4964C400936C0B /* JsHtmlCss */,
+				135559561F4964C400936C0B /* Voice */,
+			);
+			name = "Resource(资源)";
+			path = 4.Resource;
+			sourceTree = "<group>";
+		};
+		135559501F4964C400936C0B /* Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		135559521F4964C400936C0B /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		135559541F4964C400936C0B /* JsHtmlCss */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JsHtmlCss;
+			sourceTree = "<group>";
+		};
+		135559561F4964C400936C0B /* Voice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Voice;
+			sourceTree = "<group>";
+		};
+		135559581F4964C400936C0B /* SDK(集成) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "SDK(集成)";
+			path = 5.SDK;
+			sourceTree = "<group>";
+		};
+		1355599D1F49770400936C0B /* Base(基类) */ = {
+			isa = PBXGroup;
+			children = (
+				1355599E1F49770400936C0B /* BaseController */,
+				135559A01F49770400936C0B /* BaseModel */,
+				135559A21F49770400936C0B /* BaseOther */,
+				135559A41F49770400936C0B /* BaseService */,
+				135559A61F49770400936C0B /* BaseView */,
+			);
+			name = "Base(基类)";
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1355599E1F49770400936C0B /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				135559AD1F49774200936C0B /* CRBaseViewController.h */,
+				135559AE1F49774200936C0B /* CRBaseViewController.m */,
+				135559B41F497DBB00936C0B /* CRNavigationController.h */,
+				135559B51F497DBB00936C0B /* CRNavigationController.m */,
+				135559B71F497DDB00936C0B /* CRTabBarController.h */,
+				135559B81F497DDB00936C0B /* CRTabBarController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		135559A01F49770400936C0B /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				13555A091F49883D00936C0B /* CRBaseModel.h */,
+				13555A0A1F49883D00936C0B /* CRBaseModel.m */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		135559A21F49770400936C0B /* BaseOther */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseOther;
+			sourceTree = "<group>";
+		};
+		135559A41F49770400936C0B /* BaseService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseService;
+			sourceTree = "<group>";
+		};
+		135559A61F49770400936C0B /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		135559BA1F497FC400936C0B /* PartXXXFour(Tab4) */ = {
+			isa = PBXGroup;
+			children = (
+				135559BB1F497FC400936C0B /* Controller */,
+				135559BD1F497FC400936C0B /* Model */,
+				135559BF1F497FC400936C0B /* Other */,
+				135559C11F497FC400936C0B /* Service */,
+				135559C31F497FC400936C0B /* View */,
+			);
+			name = "PartXXXFour(Tab4)";
+			path = PartXXXFour;
+			sourceTree = "<group>";
+		};
+		135559BB1F497FC400936C0B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				13555A031F49809100936C0B /* CRPartFourViewController.h */,
+				13555A041F49809100936C0B /* CRPartFourViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		135559BD1F497FC400936C0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		135559BF1F497FC400936C0B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		135559C11F497FC400936C0B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		135559C31F497FC400936C0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		135559C51F497FC400936C0B /* PartXXXOne(Tab1) */ = {
+			isa = PBXGroup;
+			children = (
+				135559C61F497FC400936C0B /* Controller */,
+				135559C81F497FC400936C0B /* Model */,
+				135559CA1F497FC400936C0B /* Other */,
+				135559CC1F497FC400936C0B /* Service */,
+				135559CE1F497FC400936C0B /* View */,
+			);
+			name = "PartXXXOne(Tab1)";
+			path = PartXXXOne;
+			sourceTree = "<group>";
+		};
+		135559C61F497FC400936C0B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				135559FA1F49805200936C0B /* CRPartOneViewController.h */,
+				135559FB1F49805200936C0B /* CRPartOneViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		135559C81F497FC400936C0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		135559CA1F497FC400936C0B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		135559CC1F497FC400936C0B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		135559CE1F497FC400936C0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		135559D01F497FC400936C0B /* PartXXXThree(Tab3) */ = {
+			isa = PBXGroup;
+			children = (
+				135559D11F497FC400936C0B /* Controller */,
+				135559D31F497FC400936C0B /* Model */,
+				135559D51F497FC400936C0B /* Other */,
+				135559D71F497FC400936C0B /* Service */,
+				135559D91F497FC400936C0B /* View */,
+			);
+			name = "PartXXXThree(Tab3)";
+			path = PartXXXThree;
+			sourceTree = "<group>";
+		};
+		135559D11F497FC400936C0B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				13555A001F49808400936C0B /* CRPartThreeViewController.h */,
+				13555A011F49808400936C0B /* CRPartThreeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		135559D31F497FC400936C0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		135559D51F497FC400936C0B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		135559D71F497FC400936C0B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		135559D91F497FC400936C0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		135559DB1F497FC400936C0B /* PartXXXTwo(Tab2) */ = {
+			isa = PBXGroup;
+			children = (
+				135559DC1F497FC400936C0B /* Controller */,
+				135559DE1F497FC400936C0B /* Model */,
+				135559E01F497FC400936C0B /* Other */,
+				135559E21F497FC400936C0B /* Service */,
+				135559E41F497FC400936C0B /* View */,
+			);
+			name = "PartXXXTwo(Tab2)";
+			path = PartXXXTwo;
+			sourceTree = "<group>";
+		};
+		135559DC1F497FC400936C0B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				135559FD1F49807600936C0B /* CRPartTwoViewController.h */,
+				135559FE1F49807600936C0B /* CRPartTwoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		135559DE1F497FC400936C0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		135559E01F497FC400936C0B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		135559E21F497FC400936C0B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		135559E41F497FC400936C0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1381754A1F46CDF700DDCD7A = {
+			isa = PBXGroup;
+			children = (
+				138175551F46CDF700DDCD7A /* CRSampleProj */,
+				138175541F46CDF700DDCD7A /* Products */,
+				8124EF57AC1B94AA51154A57 /* Pods */,
+				EDF9BEA2601EC09677967A96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		138175541F46CDF700DDCD7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				138175531F46CDF700DDCD7A /* CRSampleProj.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		138175551F46CDF700DDCD7A /* CRSampleProj */ = {
+			isa = PBXGroup;
+			children = (
+				135558441F49633E00936C0B /* CRAppDelegate.h */,
+				135558451F49633E00936C0B /* CRAppDelegate.m */,
+				1355598A1F49666B00936C0B /* CRAppDelegate+Config.h */,
+				1355598B1F49666B00936C0B /* CRAppDelegate+Config.m */,
+				1355598D1F49675800936C0B /* CRPrefixHeader.pch */,
+				138175621F46CDF700DDCD7A /* Assets.xcassets */,
+				138175641F46CDF700DDCD7A /* LaunchScreen.storyboard */,
+				138175671F46CDF700DDCD7A /* Info.plist */,
+				135558EA1F4964C400936C0B /* CRProjFiles */,
+				138175561F46CDF700DDCD7A /* Supporting Files */,
+			);
+			path = CRSampleProj;
+			sourceTree = "<group>";
+		};
+		138175561F46CDF700DDCD7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				138175571F46CDF700DDCD7A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8124EF57AC1B94AA51154A57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39CDFAFB5C9000A2D3FF9505 /* Pods-CRSampleProj.debug.xcconfig */,
+				0AAD1C9FCE9CF327ABF80826 /* Pods-CRSampleProj.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDF9BEA2601EC09677967A96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F6144422FA166F744BE1884 /* libPods-CRSampleProj.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		138175521F46CDF700DDCD7A /* CRSampleProj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1381756A1F46CDF700DDCD7A /* Build configuration list for PBXNativeTarget "CRSampleProj" */;
+			buildPhases = (
+				9A7FC6E13934515A8A8E896E /* [CP] Check Pods Manifest.lock */,
+				1381754F1F46CDF700DDCD7A /* Sources */,
+				138175501F46CDF700DDCD7A /* Frameworks */,
+				138175511F46CDF700DDCD7A /* Resources */,
+				C0C1F1E32B09586750BCDAFB /* [CP] Embed Pods Frameworks */,
+				6389BF45038A613D1842EE51 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRSampleProj;
+			productName = CRSampleProj;
+			productReference = 138175531F46CDF700DDCD7A /* CRSampleProj.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1381754B1F46CDF700DDCD7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = doubleC;
+				TargetAttributes = {
+					138175521F46CDF700DDCD7A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 1381754E1F46CDF700DDCD7A /* Build configuration list for PBXProject "CRSampleProj" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1381754A1F46CDF700DDCD7A;
+			productRefGroup = 138175541F46CDF700DDCD7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				138175521F46CDF700DDCD7A /* CRSampleProj */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		138175511F46CDF700DDCD7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138175661F46CDF700DDCD7A /* LaunchScreen.storyboard in Resources */,
+				138175631F46CDF700DDCD7A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6389BF45038A613D1842EE51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRSampleProj/Pods-CRSampleProj-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A7FC6E13934515A8A8E896E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0C1F1E32B09586750BCDAFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRSampleProj/Pods-CRSampleProj-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1381754F1F46CDF700DDCD7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				135559AF1F49774200936C0B /* CRBaseViewController.m in Sources */,
+				135559FF1F49807600936C0B /* CRPartTwoViewController.m in Sources */,
+				138175581F46CDF700DDCD7A /* main.m in Sources */,
+				13555A111F49896700936C0B /* NSDictionary+SafeAccess.m in Sources */,
+				135559931F496D5800936C0B /* CRConst.m in Sources */,
+				1355599C1F496F6500936C0B /* UIImage+CRAdd.m in Sources */,
+				135559B61F497DBB00936C0B /* CRNavigationController.m in Sources */,
+				135559B91F497DDB00936C0B /* CRTabBarController.m in Sources */,
+				135559991F496E0500936C0B /* CRPlainButton.m in Sources */,
+				13555A081F49868A00936C0B /* CRThemeManager.m in Sources */,
+				13555A0E1F4988CF00936C0B /* CRCrashRecord.m in Sources */,
+				13555A0B1F49883D00936C0B /* CRBaseModel.m in Sources */,
+				13555A021F49808400936C0B /* CRPartThreeViewController.m in Sources */,
+				135559B21F497BF500936C0B /* UIBarButtonItem+CRAdd.m in Sources */,
+				135558461F49633E00936C0B /* CRAppDelegate.m in Sources */,
+				1355598C1F49666B00936C0B /* CRAppDelegate+Config.m in Sources */,
+				13555A051F49809100936C0B /* CRPartFourViewController.m in Sources */,
+				135559FC1F49805200936C0B /* CRPartOneViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		138175641F46CDF700DDCD7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138175651F46CDF700DDCD7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		138175681F46CDF700DDCD7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		138175691F46CDF700DDCD7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1381756B1F46CDF700DDCD7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39CDFAFB5C9000A2D3FF9505 /* Pods-CRSampleProj.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CRSampleProj/CRPrefixHeader.pch;
+				INFOPLIST_FILE = CRSampleProj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doubleC.CRSampleProj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		1381756C1F46CDF700DDCD7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AAD1C9FCE9CF327ABF80826 /* Pods-CRSampleProj.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CRSampleProj/CRPrefixHeader.pch;
+				INFOPLIST_FILE = CRSampleProj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doubleC.CRSampleProj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1381754E1F46CDF700DDCD7A /* Build configuration list for PBXProject "CRSampleProj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138175681F46CDF700DDCD7A /* Debug */,
+				138175691F46CDF700DDCD7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1381756A1F46CDF700DDCD7A /* Build configuration list for PBXNativeTarget "CRSampleProj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1381756B1F46CDF700DDCD7A /* Debug */,
+				1381756C1F46CDF700DDCD7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1381754B1F46CDF700DDCD7A /* Project object */;
+}
