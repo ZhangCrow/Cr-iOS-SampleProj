@@ -6,6 +6,11 @@
 build/
 DerivedData/
 
+## CRCustom settings
+.DS_Store
+Icon?
+Podfile.lock
+
 ## Various settings
 *.pbxuser
 !default.pbxuser
@@ -34,7 +39,7 @@ xcuserdata/
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
-# Pods/
+Pods/
 
 # Carthage
 #
@@ -54,6 +59,9 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+
+### Objective-C Patch ###
+*.xcscmblueprint
 
 # Code Injection
 #
