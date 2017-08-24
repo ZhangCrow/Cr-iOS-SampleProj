@@ -6,8 +6,7 @@
 //  Copyright © 2017年 doubleC. All rights reserved.
 //
 
-
-
+// HeaderSearchPaths Add "$(SRCROOT)/xxxx/xxxxx"
 #ifdef __OBJC__
 
 #import "CRBaseViewController.h"

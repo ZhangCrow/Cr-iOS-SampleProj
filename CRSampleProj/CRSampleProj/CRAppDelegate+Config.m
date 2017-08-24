@@ -7,20 +7,17 @@
 //
 
 #import "CRAppDelegate+Config.h"
-
 // ConfigSingleton
 #import "CRThemeManager.h"
 #import "CRCrashRecord.h"
 #import "IQKeyboardManager.h"
 #import "AvoidCrash.h"
 #import <FHHFPSIndicator/FHHFPSIndicator.h>
-
 // ConfigPage
 #import "CRPartOneViewController.h"
 #import "CRPartTwoViewController.h"
 #import "CRPartThreeViewController.h"
 #import "CRPartFourViewController.h"
-
 
 static NSString *const kUserDefaultsKey_CrashMsgRecord = @"x_array_crashMsgRecord";
 

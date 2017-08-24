@@ -16,8 +16,9 @@
 #import "CRConst.h"
 
 #pragma mark - ** Required Support Files
-
+//// Required Support Files
 #import <Masonry.h>
-#import "CRObjcKit.h"
+#import <CRObjcKit.h>
+//#import "CRObjcKit.h"
 
 #endif

@@ -27,6 +27,7 @@
 		138175581F46CDF700DDCD7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 138175571F46CDF700DDCD7A /* main.m */; };
 		138175631F46CDF700DDCD7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 138175621F46CDF700DDCD7A /* Assets.xcassets */; };
 		138175661F46CDF700DDCD7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 138175641F46CDF700DDCD7A /* LaunchScreen.storyboard */; };
+		1396BDCD1F4C3F0F0004EB6C /* CRSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1396BDCC1F4C3F0F0004EB6C /* CRSampleViewController.m */; };
 		A92772C0E3AABC2368E13EE8 /* libPods-CRSampleProj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F6144422FA166F744BE1884 /* libPods-CRSampleProj.a */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +79,8 @@
 		138175621F46CDF700DDCD7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		138175651F46CDF700DDCD7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		138175671F46CDF700DDCD7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1396BDCB1F4C3F0F0004EB6C /* CRSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRSampleViewController.h; sourceTree = "<group>"; };
+		1396BDCC1F4C3F0F0004EB6C /* CRSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRSampleViewController.m; sourceTree = "<group>"; };
 		39CDFAFB5C9000A2D3FF9505 /* Pods-CRSampleProj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRSampleProj.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CRSampleProj/Pods-CRSampleProj.debug.xcconfig"; sourceTree = "<group>"; };
 		4F6144422FA166F744BE1884 /* libPods-CRSampleProj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRSampleProj.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -186,6 +189,8 @@
 		1355592F1F4964C400936C0B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				1396BDCB1F4C3F0F0004EB6C /* CRSampleViewController.h */,
+				1396BDCC1F4C3F0F0004EB6C /* CRSampleViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -837,6 +842,7 @@
 				13555A0E1F4988CF00936C0B /* CRCrashRecord.m in Sources */,
 				13555A0B1F49883D00936C0B /* CRBaseModel.m in Sources */,
 				13555A021F49808400936C0B /* CRPartThreeViewController.m in Sources */,
+				1396BDCD1F4C3F0F0004EB6C /* CRSampleViewController.m in Sources */,
 				135559B21F497BF500936C0B /* UIBarButtonItem+CRAdd.m in Sources */,
 				135558461F49633E00936C0B /* CRAppDelegate.m in Sources */,
 				1355598C1F49666B00936C0B /* CRAppDelegate+Config.m in Sources */,
@@ -957,9 +963,33 @@
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CRSampleProj/CRPrefixHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/AvoidCrash\"",
+					"\"${PODS_ROOT}/Headers/Public/FHHFPSIndicator\"",
+					"\"${PODS_ROOT}/Headers/Public/IQKeyboardManager\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/Toast\"",
+					"\"${PODS_ROOT}/Headers/Public/YYModel\"",
+					"\"$(SRCROOT)/CRSampleProj/CRProjFiles\"",
+				);
 				INFOPLIST_FILE = CRSampleProj/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AFNetworking\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/AvoidCrash\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/FHHFPSIndicator\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/IQKeyboardManager\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Masonry\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SDWebImage\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Toast\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/YYModel\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.doubleC.CRSampleProj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -974,6 +1004,19 @@
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CRSampleProj/CRPrefixHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/AvoidCrash\"",
+					"\"${PODS_ROOT}/Headers/Public/FHHFPSIndicator\"",
+					"\"${PODS_ROOT}/Headers/Public/IQKeyboardManager\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/Toast\"",
+					"\"${PODS_ROOT}/Headers/Public/YYModel\"",
+					"\"$(SRCROOT)/CRSampleProj/CRProjFiles\"",
+				);
 				INFOPLIST_FILE = CRSampleProj/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
